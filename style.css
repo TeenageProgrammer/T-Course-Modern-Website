@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+    --main-blue-all: #00ffff;
+    --main-dark-bg: rgba(30, 41, 58, 1);
+    --dark-purple-color: rgb(2, 16, 82);
+    --main-color-dark: #1b1c20;
+    --main-color-all: rgb(30, 32, 42);
+    --standard-blue-color: #007fff;
+    --main-blue-light: #0080ff80;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--main-color-all);
+}
+
+/* ------------------Common CSS Stylings --------------------- */
+
+.maxWidthAll{
+    max-width: 1180px;
+    padding: 0 40px;
+}
+
+.marginAuto {
+    margin: auto;
+}
+
+.smallText {
+    font-size: 1rem;
+    color: #ffffffa8;
+    margin: 3px 0;
+    font-family: 'Poppins';
+    line-height: 26px;
+}
+
+.regularText {
+    font-size: 1.375rem;
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin: 6px 0;
+}
+
+.normalText {
+    font-size: 1rem;
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin: 6px 0;
+}
+
+.bigText {
+    font-size: 2.125rem;
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins';
+    margin: 6px 0;
+}
+
+
+/* -------------------------Navbar Styling --------------------- */
+
+header {
+    width: 100%;
+    box-shadow: 0px 0px 12px #000000ad;
+    position: fixed;
+    background-color: var(--main-color-all);
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    max-width: 1380px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 80px;
+    position: relative;
+}
+
+.logo {
+    height: 46px;
+    cursor: pointer;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+}
+
+.navbar ul li {
+    list-style: none;
+    color: white;
+    margin-left: 26px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+
+.navbar i {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    align-self: center;
+
+}
+
+.navbar ul li:hover {
+    color: var(--main-blue-all);
+}
+
+
+/* ------------------------- Home Styling ------------------- */
+
+.homeContainer {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    padding-bottom: 7rem;
+}
+
+.homeContainer div{
+    width: 50%;
+}
+
+.textBoxHome h1 span{
+    color: var(--main-blue-all);
+}
+
+.button_1{
+    outline: none;
+    border: 2px solid var(--standard-blue-color);
+    padding: 6px 14px;
+    font-family: 'Poppins';
+    background-color: var(--standard-blue-color);
+    color: white;
+    margin-top: 12px;
+    border-radius: 3px;
+    font-size: 16px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.button_1:hover{
+    background-color: #0073e6;
+}
+
+.imgBoxHome img{
+    width: 100%;
+    animation: animHero 3s linear infinite;
+}
+
+@keyframes animHero {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(16px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+/* ------------------- Codefest Container ---------------------- */
+
+.codeFestContainer{
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    padding: 0px 20px;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: var(--standard-blue-color);
+}
+
+.codeFestContainer img{
+    height: 270px;
+}
+
+.codeFestContainer p{
+    width: 50%;
+}
+
+.codeFestContainer p span{
+    color: rgba(255,255,255,0.7);
+
+}
+
+
+
+/* -------------------- Course Styling ------------------- */
+
+.courseSection{
+    padding-top: 7rem;
+}
+
+.mainHeading{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.mainHeading::after{
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    border-radius: 4px;
+    bottom: -6px;
+    background-color: white;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.courseContainer{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.course{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.course img{
+    width: 250px;
+}
+
+.course .courseSalary{
+    background-color: var(--standard-blue-color);
+    padding: 3px 10px;
+}
+
+.pricing{
+    padding-top: 7rem;
+}
+
+.pricingContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin-top: 4rem;
+    column-gap: 40px;
+    row-gap: 40px;
+}
+
+.priceBox{
+    background-color: var(--main-color-dark);
+    padding: 20px 16px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: .3s;
+}
+
+.priceBox:hover{
+    background-color: #1e1f24;
+}
+
+.priceBox h1{
+    border-bottom: 1px solid white;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.priceBox p{
+    width: 100%;
+    background-color: var(--standard-blue-color);
+    text-align: center;
+    padding: 6px 0px;
+    font-size: 20px;
+}
+
+.priceBox button{
+    align-self: center;
+}
+
+
+/* ------------------------- About Us Styling --------------------- */
+
+.about_us{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.aboutContainer{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutContainer img{
+    width: 45%;
+}
+
+.aboutContainer p{
+    width: 45%;
+    font-size: 18px;
+}
+
+.aboutContainer p span{
+    background-color: var(--main-blue-light);
+}
+
+
+
+/* ------------------------ Count Styling --------------------- */
+
+.count{
+    background-color: var(--main-dark-bg);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    text-align: center;
+    border-radius: 4px;
+}
+
+.count div h1{
+    font-size: 2.1rem;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.count div p{
+    margin-top: 12px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+
+/* ------------------------- Contact Us Styling -------------------- */
+
+.contact_us{
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.contact_us p{
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 28px;
+}
+
+.contact_us form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_us form div{
+    position: relative;
+    max-width: 550px;
+    width: 100%;
+    margin: 8px 0;
+    background-color: transparent;
+    border: 2px solid var(--standard-blue-color);
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.contact_us form div i{
+    color: var(--standard-blue-color);
+    font-size: 16px;
+    margin-left: 6px;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+
+.contact_us form div input{
+    background-color: transparent;
+    font-family: 'Poppins';
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 8px 8px 8px 32px;
+    font-size: 14px;
+    color: white;
+}
+
+#contactTextArea{
+    width: 100%;
+    resize: none;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 8px 8px 8px 32px;
+    font-family: 'Poppins';
+    outline: none;
+}
+
+
+#contactTextArea::-webkit-scrollbar{
+    display: none;
+}
+
+.contact_us form button{
+    max-width: 550px;
+    width: 100%;
+}
+
+.contact_us img{
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 20vw;
+    animation: animMessage 3s linear infinite;
+}
+
+@keyframes animMessage {
+    0%{
+        transform: translateY(20px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}
+
+
+/* ------------------------- FAQ Styling --------------------- */
+
+.faq{
+    padding-top: 7rem;
+}
+
+.faq .mainHeading{
+    margin-bottom: 3rem;
+}
+
+.faqBox{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.faqBox .qnaDiv{
+    box-shadow: 0px 0px 12px rgba(0 0 0 / 50%);
+    padding: 6px 22px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.faqBox h1{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 6px 0;
+}
+
+.faqBox .fa-caret-up{
+    display: none;
+}
+
+.faqBox.open .fa-caret-up{
+    display: flex;
+}
+
+.faqBox.open .fa-caret-down{
+    display: none;
+}
+
+.faqBox .ansDiv{
+    background-color: var(--main-dark-bg);
+    box-sizing: border-box;
+    height: 0px;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.faqBox.open .ansDiv{
+    padding: 14px 22px;
+    height: auto;
+}
+
+.faqBox p{
+    margin: 0px;
+    overflow: hidden;
+}
+
+
+/* ---------------------- Footer Styling ------------------ */
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footerContainer{
+    display: flex;
+    padding-top: 7rem;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footerDiv{
+    align-items: center;
+    width: 33%;
+}
+
+footer .navigatingFooterLinks{
+    text-align: center;
+}
+
+footer .navigatingFooterLinks p{
+    margin-bottom: 10px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+footer .navigatingFooterLinks p:hover{
+    color: var(--main-blue-all);
+}
+
+footer .footerDiv:nth-child(3) p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.socialLinks{
+    text-align: center;
+}
+
+.socialLinks i{
+    margin: 0px 12px;
+    cursor: pointer;
+    transition: .3s;
+    color: white;
+    font-size: 1.6rem;
+}
+
+.socialLinks i:nth-child(1):hover{
+    color: #DD2A7B;
+}
+.socialLinks i:nth-child(2):hover{
+    color: #00ACEE;
+}
+.socialLinks i:nth-child(3):hover{
+    color: #5865F2;
+}
+.socialLinks i:nth-child(4):hover{
+    color: #e62117;
+}
+
+
+.reveal{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: .4s;
+    position: relative;
+}
+
+.reveal.active{
+    opacity: 1;
+    transform: translateY(0px);    
+}
+
+.copyRight{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+ /* Scroll Bar Styling ------------ */
+
+ ::-webkit-scrollbar{
+    width: 8px;
+    background-color: var(--main-color-all);
+ }
+
+ ::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 10px;
+ }
+
+ ::-webkit-scrollbar-thumb:hover{
+    background: #ffffffdc;
+ }

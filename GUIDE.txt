@@ -1,0 +1,121 @@
+GOOGLE FONTS-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+CSS ROOTS-
+:root {
+    --main-blue-all: #00ffff;
+    --main-dark-bg: rgba(30, 41, 58, 1);
+    --dark-purple-color: rgb(2, 16, 82);
+    --main-color-dark: #1b1c20;
+    --main-color-all: rgb(30, 32, 42);
+    --standard-blue-color: #007fff;
+    --main-blue-light: #0080ff80;
+}
+
+
+Nav Links-
+Home
+Courses
+Pricing 
+About
+Contact
+
+
+Home-
+T-Course provides you best and easy learning programming tutorials, projects from scratch and developing programming skills from basics with user friendly lessons, Coding is only hard untill you are BEGINNER!
+
+
+
+
+CodeFest-
+We Conduct Codefest evert weeek with new coding challenges, developers can easily join for FREE and show up their coding skills. Winners get exiting real money prizes at the end of the Codefest. By T-Course Developer
+
+
+
+
+Courses-
+1:
+Data Scientist
+The Data Scientist role is a professional responsible for collecting, analyzing and interpreting extremely large amounts of data
+Upto ₹75,000/m Salary
+
+
+2:
+Full Stack Web Development
+A Full Stack Developer is a person handles both server and client side softwares and addition to mastering HTML and CSS, he/she also knows how to Program a browser
+Upto ₹65,000/m Salary
+
+
+3:
+Graphic Designing
+Graphic designers develop the overall layout and production design for application such as website illustrations, magazines, and reports
+Upto ₹35,000/m Salary
+
+
+4:
+Cloud Computing
+Cloud Computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.
+Upto ₹1,15,000/m Salary
+
+
+
+Pricing-
+
+1:
+Full Stack Web Development
+--
+HTML, CSS and JAVASCRIPT
+React JS
+Node JS
+MongoDB
+Advance Javascript
+API
+Course Pricing | ₹12,000 /-
+
+
+
+2:
+Cloud Computing
+--
+360&ordm; Understanding of Computer Eco-system
+Key Cloud Concepts
+Daily Live Sessions
+24/7 Support
+Basics of Security and Privacy
+Basics of Networking
+Course Pricing | ₹35,000 /-
+
+
+
+
+
+About Us-
+T-Course helps you to get close to your dreams of Programming world. T-Course is one of the best online coding Learning/Competition platform for programmers in whole wide world. Beginner's who want to learn Coding and Programming are too joining us. We have around <br><span>1M+ Programmers Unity</span> in T-Course. With our comprehensive course curriculum, you will cover all cutting edge topics. T-Course has it's own brand, with TAG of <span>Asia's Biggest Online Coding Course</span>. With the evolution of computers programming languages, T-Course is also contributing in this evolution by provind paid courses of Programming Languages such as Python, Javascript, C++, Java, Angular and more. We help students to fast-track your career in this evolving programming field.
+
+
+
+
+FAQ-
+1:
+Will T-Course provide course for Freshers in programming?
+Yes, our courses are too friendly to get understood easily for freshies in programming.
+
+
+2:
+How can I join codefest of T-Course?
+Subscribe our T-Course Youtube to get instant updates of codefest. You can also join Our Discord Server for more information.
+
+
+3:
+Why should I choose T-Course when other platforms provide course in less amount?
+T-Course provides you 24/7 Guidence in programming courses. Users get free source code of many websites for Professional/Advance Learning.
+
+
+4:
+Are Codefest free to join for all programmers?
+Yes, T-Course helps programmers to show up their skills of programming in codefest, all players are free to join Codefest with no cost.
+
+
+
+Footer About-
+T-Course helps you to get close to your dreams of programming world. T-Course is one of the best online coding Learning/Competition platform for programmers in whole wide world. Beginner's who want to learn coding and programming are too joining us. We have around 1M+ Programmers Unity in T-Course

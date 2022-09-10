@@ -1,0 +1,95 @@
+@media only screen and (max-width:720px){
+    .logo{
+        height: 40px;
+    }
+    .navbar ul{
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        right: -500px;
+        background-color: rgb(23,24,32);
+        width: 60%;
+        height: 100vh;
+    }
+
+    .navbar ul li{
+        margin: 12px 15px;
+    }
+
+    .navbar i{
+        display: flex;
+    }
+
+    .navbar .openNav{
+        right: 0px;
+        z-index: 12;
+    }
+
+    .homeContainer{
+        flex-direction: column;
+        padding-top: 6.5rem;
+    }
+
+    .homeContainer div{
+        width: 100%;
+    }
+
+    .codeFestContainer{
+        flex-direction: column;
+        padding: 20px 12px;
+        margin: 6rem 12px;
+    }
+
+    .codeFestContainer img{
+        width: 80%;
+    }
+
+    .codeFestContainer p{
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .priceBox p{
+        font-size: 16px;
+    }
+
+    .aboutContainer{
+        flex-direction: column;
+    }
+
+    .aboutContainer img{
+        width: 100%;
+    }
+
+    .aboutContainer p{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    
+    .faqBox .qnaDiv h1{
+        font-size: 1rem;
+    }
+
+    footer .footerContainer{
+        flex-direction: column;
+    }
+
+    footer .footerDiv{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width:670px){
+    .smallText{
+        font-size: 0.95rem;
+    }
+    .regularText{
+        font-size: 1.175rem;
+    }
+    .normalText{
+        font-size: 0.9rem;
+    }
+}
